@@ -4,9 +4,69 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Quero ir comer...</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-    <hr />
-    <div>Host operating system: @Model.OSVersion</div>
-</div>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Electronic Music Hub</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Electronic Music Hub</h1>
+        <p>Your Source for the Latest in Electronic Music</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#genres">Genres</a></li>
+            <li><a href="#artists">Artists</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Electronic Music</h2>
+        <p>Electronic music is a diverse and ever-evolving genre that relies on electronic devices and technology to produce and manipulate sound. It has been at the forefront of music innovation for decades, giving birth to various sub-genres and exciting experiences for music lovers.</p>
+    </section>
+
+    <section id="genres">
+        <h2>Genres</h2>
+        <ul>
+            <li>Techno</li>
+            <li>House</li>
+            <li>Dubstep</li>
+            <li>Trance</li>
+            <li>Drum and Bass</li>
+        </ul>
+    </section>
+
+    <section id="artists">
+        <h2>Featured Artists</h2>
+        <ul>
+            <li><a href="#">Daft Punk</a></li>
+            <li><a href="#">Calvin Harris</a></li>
+            <li><a href="#">Skrillex</a></li>
+            <li><a href="#">Deadmau5</a></li>
+            <li><a href="#">Nina Kraviz</a></li>
+        </ul>
+    </section>
+
+    <section id="events">
+        <h2>Upcoming Events</h2>
+        <p>Stay tuned for upcoming electronic music events in your area. Check back for event listings, tickets, and more!</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, suggestions, or want to get in touch with us, feel free to send us an email at <a href="mailto:info@electronicmusichub.com">info@electronicmusichub.com</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Electronic Music Hub</p>
+    </footer>
+</body>
+</html>
+
